@@ -1,0 +1,151 @@
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 1199px) {
+  .provide_box {
+    height: 380px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-link {
+    margin-right: 20px;
+  }
+
+  .banner-bg h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .service_taxt {
+    border-top: 1px solid #eee;
+  }
+  .service_box {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .service_box img {
+    padding: 25px;
+  }
+  .about_25 {
+    display: flex;
+    align-items: end;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #topHeader {
+    display: none;
+  }
+
+  .get_btn {
+    display: none;
+  }
+  .proc_img1 {
+    margin-left: 0px;
+  }
+
+  .process_img_box h6 {
+    display: none;
+  }
+  .process_img_box {
+    justify-content: center;
+  }
+  .owl-carousel .owl-nav {
+    display: block;
+  }
+  .feature_wrapper img {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about_25 {
+    margin-bottom: 30px;
+  }
+  .year_box {
+    margin: 20px 0 30px 0;
+  }
+  .process_wrapper {
+    margin: 50px 0;
+  }
+  .about_text h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .process_wrapper h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .faq_Wrapper h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .provide_box {
+    height: 320px;
+  }
+  .form_box {
+    padding: 80px 30px;
+  }
+  .call_box h5 {
+    font-size: 18px;
+  }
+
+  .about_banner_text {
+    left: 5%;
+  }
+
+  .about_banner_text h1 {
+    font-size: 30px;
+    margin-top: 0px;
+    padding-left: 20px;
+  }
+
+  .deliver_solution h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .choose_about_wrapper h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .deliver_text_box {
+    padding-left: 0px;
+}
+}
+
+@media only screen and (max-width: 690px) {
+  .footer_wrapper ul {
+    text-align: center;
+  }
+  .footer_wrapper h2,
+  p {
+    text-align: center;
+  }
+  .footer_box {
+    display: block;
+    text-align: center;
+  }
+  #ans1,
+  #ans2,
+  #ans3 {
+    padding: 10px 15px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-bg h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .provide_box {
+    height: 350px;
+  }
+}
