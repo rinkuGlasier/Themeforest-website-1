@@ -155,9 +155,10 @@
                     <img src="images/about-bg.jpg">
                     <div class="about-bg-color"></div>
                     <div class="about_banner_text">
+                        <section class="wow fadeInUp" data-wow-duration="1.8s">
                         <h1>Service-01</h1>
                         <p><a href="index.html">Home /</a> <span> Service</span></p>
-
+                            </section>
                     </div>
                 </div>
             </div>
@@ -175,6 +176,7 @@
                     We Provide Great Value For<br />
                     <b>Courier Services</b>
                 </h1>
+                <section class="wow fadeInLeft" data-wow-duration="1.8s">
                 <div class="row pb-5">
                     <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
                         <div class="do_box card card-body p-0 rounded text-start">
@@ -254,6 +256,7 @@
                         </div>
                     </div>
                 </div>
+                </section>
             </div>
         </div>
     </section>
@@ -268,15 +271,18 @@
                 <div class="row  align-items-center text-white position-absolute  
                         top-50 start-50 translate-middle googleapis  ">
                     <div class="col-xl-7  col-lg-7 col-md-8 col-sm-12 text-center text-md-start  text-xl-start">
+                        <section class="wow fadeInUp" data-wow-duration="1.8s">
                         <p>24/7 WE ARE HERE</p>
                         <h2 class="fw-bold">Get a Free Quotation with our Expert</h2>
+                        </section>
                     </div>
                     <div class="col-xl-5  col-lg-5 col-md-4 col-sm-12   d-flex justify-content-center  justify-content-md-end   justify-content-sm-center 
-                             ">
+                             "><section class="wow fadeInUp" data-wow-duration="1.8s">
                         <button type="button"
                             class="bg-primary text-white  px-4  py-3  px-sm-4 border-0  rounded mt-3 mt-md-0"> Make
                             a
                             Call</button>
+                            </section>
                     </div>
                 </div>
             </div>
@@ -295,6 +301,7 @@
                         Secured, Affordable & Reliable<br />
                         <b>Logistics Support</b>
                     </h1>
+                    <section class="wow fadeInLeft" data-wow-duration="1.8s">
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12 mt-4 ">
                             <div class="fav_img_box card position-relative">
@@ -355,6 +362,7 @@
                             </div>
                         </div>
                     </div>
+                    </section>
                 </div>
     </section>
 
@@ -368,6 +376,7 @@
                 <h1 class="text-white fs-1 ">Choose <b>Affordable Plan</b> for
                     Your <b>Package</b></h1>
                 <div class="container">
+                    <section class="wow fadeInUp" data-wow-duration="1.8s">
                     <div class="row align-items-center mx-0    mx-xl-5 mx-lg-3 pb-5">
                         <div class="col-lg-4 col-md-6 col-dm-12 mt-3">
                             <div class="pricing_box active border border-5  rounded p-3 p-sm-5  ">
@@ -444,6 +453,7 @@
                             </div>
                         </div>
                     </div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -456,6 +466,7 @@
     <section>
         <div class="marquee_wrapper">
             <div class="container">
+                <section class="wow fadeInLeft" data-wow-duration="1.8s">
                 <div class="img-slider owl-carousel">
                     <div class="img-box">
                         <img src="images/mq-1.png">
@@ -479,6 +490,7 @@
                         <img src="images/mq-7.png">
                     </div>
                 </div>
+                </section>
             </div>
         </div>
     </section>
@@ -490,6 +502,7 @@
     <section>
         <div class="footer_wrapper">
             <div class="container">
+                <section class="wow fadeInLeft" data-wow-duration="1.8s">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="images/footer-logo.png">
@@ -538,14 +551,17 @@
                     </div>
 
                 </div>
+                </section>
             </div>
         </div>
         <div class="footer_bg  d-flex  md-block">
             <div class="container">
+                <section class="wow fadeInUp" data-wow-duration="1.8s">
                 <div class="footer_box">
                     <h3>© 2023 expoint. All rights reserved.</h3>
                     <h3>Privacy Policy | Terms & Conditions</h3>
                 </div>
+                </section>
             </div>
         </div>
         </div>
@@ -562,6 +578,7 @@
 
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/bootstrap.bundle.min.js "></script>
     <script src="js/owl.carousel.min.js"></script>
     <script>
@@ -590,6 +607,18 @@
 
 
     </script>
+
+    <script>
+        wow = new WOW(
+            {
+                boxClass: 'wow',      // default
+                animateClass: 'animated', // default
+                offset: 0,          // default
+                mobile: true,       // default
+                live: true        // default
+            }
+        )
+        wow.init();</script>
 
 </body>
 

@@ -153,10 +153,11 @@
                 <img src="images/about-bg.jpg">
                 <div class="about-bg-color"></div>
                 <div class="about_banner_text">
+                    <section class="wow fadeInUp" >
                     <h1>Contact Us
                     </h1>
                     <p><a href="index.html">Home /</a> <span> Contact Us</span></p>
-
+                    </section>
                 </div>
             </div>
         </div>
@@ -170,8 +171,10 @@
         <img class="contact_img" src="images/contact-bg-1.jpg">
         <div class="container">
             <div class="choose_text position-absolute  top-50 start-50 translate-middle">
+                <section class="wow fadeInUp">
                 <h6>CONTACT US</h6>
                 <h2>Don't hesitate to<b>contact</b> <br> for get <b>Information</b></h2>
+                </section>
             </div>
         </div>
     </div>
@@ -184,6 +187,7 @@
             <div class="container">
                 <div class="row get_box gx-0 gy-0 g-0 py-5 px-3  text-center" style="margin-top: -200px; ">
                     <div class="col-lg-3 col-md-6 col-sm-12 position-relative">
+                        <section class="wow fadeInLeft" data-wow-duration="0.5s">
                         <div class="why_box bg-white   p-5 border-end border-bottom   text-dark  ">
                             <i class="bi bi-geo-alt fs-1 text-primary fw-bold"></i>
                             <h5 class="py-3 fw-normal">Office Location</h5>
@@ -192,11 +196,11 @@
                             <div class="mt-5">
                                 <a href="#" class="text-decoration-none text-primary ">FIND US ON MAP</a>
                             </div>
-
-
                         </div>
+                        </section>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 position-relative">
+                        <section class="wow fadeInLeft" data-wow-duration="1s">
                         <div class="why_box bg-white  p-5 border-end border-bottom   text-dark  ">
                             <i class="bi bi-stopwatch fs-1 text-primary fw-bold"></i>
                             <h5 class="py-3 fw-normal ">Office Hour</h5>
@@ -207,8 +211,10 @@
                                 <a href="#" class="text-decoration-none text-primary ">GET DIRECTION</a>
                             </div>
                         </div>
+                        </section>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 position-relative">
+                        <section class="wow fadeInLeft" data-wow-duration="1.8s">
                         <div class="why_box bg-white  p-5  border-end border-bottom   text-dark  ">
                             <i class="bi bi-phone fs-1 text-primary fw-bold"></i>
                             <h5 class="py-3 fw-normal">Phone Number</h5>
@@ -218,8 +224,10 @@
                                 <a href="#" class="text-decoration-none text-primary ">CALL NOW</a>
                             </div>
                         </div>
+                        </section>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12 position-relative">
+                        <section class="wow fadeInLeft" data-wow-duration="2s">
                         <div class="why_box bg-white  p-5  text-dark border-bottom   ">
                             <i class="bi bi-envelope fs-1 text-primary fw-bold"></i>
                             <h5 class="py-3 fw-normal">E-mail Address</h5>
@@ -229,6 +237,7 @@
                                 <a href="#" class="text-decoration-none text-primary ">MAIL US</a>
                             </div>
                         </div>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -239,6 +248,7 @@
                         <h6 class="text-white">STAY WITH US</h6>
                         <h2 class="text-white">Get in<b>Touch</b> </h2>
                     </div>
+                    <section class="wow fadeInUp" data-wow-duration="1s">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 my-4 ">
                             <form class="text-white">
@@ -283,7 +293,7 @@
                             class="btn_hover text-white border-0 fw-bold py-3 px-5 rounded hover:bg-dark "
                             style="font-size: 14px; background-color:#086AD7 ;      ">Get A Quote</button>
                     </div>
-
+                    </section>
                 </div>
             </div>
 
@@ -298,6 +308,7 @@
     <section>
         <div class="marquee_wrapper">
             <div class="container">
+                <section class="wow fadeInLeft" data-wow-duration="1.8s">
                 <div class="img-slider owl-carousel">
                     <div class="img-box">
                         <img src="images/mq-1.png">
@@ -321,6 +332,7 @@
                         <img src="images/mq-7.png">
                     </div>
                 </div>
+                </section>
             </div>
         </div>
     </section>
@@ -334,6 +346,7 @@
     <section>
         <div class="footer_wrapper">
             <div class="container">
+                <section class="wow fadeInLeft" data-wow-duration="1.8s">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="images/footer-logo.png">
@@ -382,14 +395,17 @@
                     </div>
 
                 </div>
+                </section>
             </div>
         </div>
         <div class="footer_bg  d-flex  md-block">
             <div class="container">
+                <section class="wow fadeInUp" data-wow-duration="1.8s">
                 <div class="footer_box">
                     <h3>© 2023 expoint. All rights reserved.</h3>
                     <h3>Privacy Policy | Terms & Conditions</h3>
                 </div>
+                </section>
             </div>
         </div>
         </div>
@@ -405,6 +421,7 @@
 
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/bootstrap.bundle.min.js "></script>
     <script src="js/owl.carousel.min.js"></script>
     <script>
@@ -431,6 +448,18 @@
             },
         });
     </script>
+
+    <script>
+        wow = new WOW(
+            {
+                boxClass: 'wow',      // default
+                animateClass: 'animated', // default
+                offset: 0,          // default
+                mobile: true,       // default
+                live: true        // default
+            }
+        )
+        wow.init();</script>
 
 </body>
 

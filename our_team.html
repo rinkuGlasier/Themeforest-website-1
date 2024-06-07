@@ -154,9 +154,10 @@
                     <img src="images/about-bg.jpg">
                     <div class="about-bg-color"></div>
                     <div class="about_banner_text">
+                            <section class="wow fadeInUp" >
                         <h1>Our Team</h1>
                         <p><a href="index.html">Home /</a> <span> Team</span></p>
-
+                                </section>
                     </div>
                 </div>
             </div>
@@ -171,6 +172,7 @@
             <div class="container">
                 <h2>EXPERT</h2>
                 <h1>Meet Our <b>Dedicated</b> Team</h1>
+                    <section class="wow fadeInLeft" data-wow-duration="1.8s">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="team_box">
@@ -254,7 +256,9 @@
                         </div>
                     </div>
                 </div>
+                </section>  
 
+                <section class="wow fadeInLeft" data-wow-duration="2.8s">
                 <div class="row mt-5 mb-5">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="team_box">
@@ -338,6 +342,7 @@
                         </div>
                     </div>
                 </div>
+                </section>
             </div>
         </div>
     </section>
@@ -348,6 +353,7 @@
     <section>
         <div class="marquee_wrapper">
             <div class="container">
+                <section class="wow fadeInUp" data-wow-duration="1.8s">
                 <div class="img-slider owl-carousel">
                     <div class="img-box">
                         <img src="images/mq-1.png">
@@ -371,6 +377,7 @@
                         <img src="images/mq-7.png">
                     </div>
                 </div>
+                </section>
             </div>
         </div>
     </section>
@@ -381,7 +388,9 @@
     <section>
         <div class="footer_wrapper">
             <div class="container">
+                <section class="wow fadeInLeft" data-wow-duration="1.8s">   
                 <div class="row">
+                    
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="images/footer-logo.png">
                         <p>Consectetur adipisicing elit. <br>
@@ -427,16 +436,19 @@
                             </li>
                         </ul>
                     </div>
-
+                  
                 </div>
+                </section>
             </div>
         </div>
         <div class="footer_bg  d-flex  md-block">
             <div class="container">
+                <section class="wow fadeInUp" data-wow-duration="1.8s">
                 <div class="footer_box">
                     <h3>© 2023 expoint. All rights reserved.</h3>
                     <h3>Privacy Policy | Terms & Conditions</h3>
                 </div>
+                </section>
             </div>
         </div>
         </div>
@@ -453,6 +465,7 @@
 
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/bootstrap.bundle.min.js "></script>
     <script src="js/owl.carousel.min.js"></script>
 
@@ -480,6 +493,18 @@
             },
         });
     </script>
+
+    <script>
+        wow = new WOW(
+            {
+                boxClass: 'wow',      // default
+                animateClass: 'animated', // default
+                offset: 0,          // default
+                mobile: true,       // default
+                live: true        // default
+            }
+        )
+        wow.init();</script>
 
 </body>
 

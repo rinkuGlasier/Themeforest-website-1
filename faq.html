@@ -154,9 +154,10 @@
                     <img src="images/about-bg.jpg">
                     <div class="about-bg-color"></div>
                     <div class="about_banner_text">
+                        <section class="wow fadeInUp" >
                         <h1>Helpful FAQ's</h1>
                         <p><a href="index.html">Home /</a> <span> FAQ's</span></p>
-
+                            </section>
                     </div>
                 </div>
             </div>
@@ -172,9 +173,12 @@
 
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12  mb-2">
+                        <section class="wow fadeInLeft" data-wow-duration="1.8s">
                         <img src="images/faq.jpg">
+                        </section>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12  mt-5">
+                        <section class="wow fadeInRight" data-wow-duration="1.8s">
                         <h2>F A Q</h2>
                         <h1>Helpful Frequently Asked <br>Question</h1>
                         <div class="faqs_box m-3">
@@ -221,6 +225,7 @@
                                 dolore ad magna
                                 aliqua. Ut enim ad minim veniam, quis nostrud.</P>
                         </div>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -287,15 +292,19 @@
                 <div class="row  align-items-center text-white position-absolute  
                     top-50 start-50 translate-middle googleapis  ">
                     <div class="col-xl-7  col-lg-7 col-md-8 col-sm-12 text-center text-md-start  text-xl-start">
+                        <section class="wow fadeInUp" data-wow-duration="1.8s">
                         <p>24/7 WE ARE HERE</p>
                         <h2>Get a Free Quotation with our Expert</h2>
+                        </section>
                     </div>
                     <div class="col-xl-5  col-lg-5 col-md-4 col-sm-12   d-flex justify-content-center  justify-content-md-end   justify-content-sm-center 
                          ">
+                            <section class="wow fadeInUp" data-wow-duration="1.8s">
                         <button type="button"
                             class="bg-primary text-white  px-4  py-3  px-sm-4 border-0  rounded mt-3 mt-md-0"> Make
                             a
                             Call</button>
+                            </section>
                     </div>
                 </div>
             </div>
@@ -314,6 +323,7 @@
     <section>
         <div class="footer_wrapper">
             <div class="container">
+                <section class="wow fadeInLeft" data-wow-duration="1.8s">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="images/footer-logo.png">
@@ -362,14 +372,17 @@
                     </div>
 
                 </div>
+                </section>
             </div>
         </div>
         <div class="footer_bg  d-flex  md-block">
             <div class="container">
+                <section class="wow fadeInUp" data-wow-duration="2s">
                 <div class="footer_box">
                     <h3>© 2023 expoint. All rights reserved.</h3>
                     <h3>Privacy Policy | Terms & Conditions</h3>
                 </div>
+                </section>
             </div>
         </div>
         </div>
@@ -386,9 +399,22 @@
 
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/bootstrap.bundle.min.js "></script>
     <script src="js/owl.carousel.min.js"></script>
 
+
+    <script>
+        wow = new WOW(
+            {
+                boxClass: 'wow',      // default
+                animateClass: 'animated', // default
+                offset: 0,          // default
+                mobile: true,       // default
+                live: true        // default
+            }
+        )
+        wow.init();</script>
 
 </body>
 

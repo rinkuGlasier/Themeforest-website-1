@@ -154,10 +154,11 @@
                     <img src="images/about-bg.jpg">
                     <div class="about-bg-color"></div>
                     <div class="about_banner_text">
+                        <section class="wow fadeInUp" >
                         <h1>Blog-Grid
                         </h1>
                         <p><a href="index.html">Home /</a> <span> Blog-Grid</span></p>
-
+                        </section>
                     </div>
                 </div>
             </div>
@@ -176,6 +177,7 @@
 
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
+                        <section class="wow fadeInLeft" data-wow-duration="0.5s">
                         <div class="blog_box">
                             <img src="images/blog-1.jpg">
                             <div class="blog_txt">
@@ -196,9 +198,11 @@
 
                             </div>
                         </div>
+                        </section>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12">
+                        <section class="wow fadeInLeft" data-wow-duration="1s">
                         <div class="blog_box">
                             <img src="images/blog-2.jpg">
                             <div class="blog_txt">
@@ -219,9 +223,11 @@
 
                             </div>
                         </div>
+                        </section>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12">
+                        <section class="wow fadeInLeft" data-wow-duration="1.8s">
                         <div class="blog_box">
                             <img src="images/blog-3.jpg">
                             <div class="blog_txt">
@@ -242,10 +248,12 @@
 
                             </div>
                         </div>
+                        </section>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
+                        <section class="wow fadeInLeft" data-wow-duration="2s">
                         <div class="blog_box">
                             <img src="images/blog-1.jpg">
                             <div class="blog_txt">
@@ -266,9 +274,11 @@
 
                             </div>
                         </div>
+                        </section>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12">
+                        <section class="wow fadeInLeft" data-wow-duration="2.5s">
                         <div class="blog_box">
                             <img src="images/blog-2.jpg">
                             <div class="blog_txt">
@@ -289,9 +299,11 @@
 
                             </div>
                         </div>
+                        </section>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-sm-12">
+                        <section class="wow fadeInLeft" data-wow-duration="2.8s">
                         <div class="blog_box">
                             <img src="images/blog-3.jpg">
                             <div class="blog_txt">
@@ -312,7 +324,9 @@
 
                             </div>
                         </div>
+                        </section>
                     </div>
+                    <section class="wow fadeInUp" data-wow-duration="1.8s">
                     <div class="blog_pages d-flex gap-3 mt-5">
                         <a href="#" class=" fs-6 text-decoration-none fw-normal text-secondary border py-2 px-3 m-0 ">
                             1</a>
@@ -321,6 +335,7 @@
                         <a href="#" class=" fs-6 text-decoration-none fw-normal text-secondary border py-2 px-3 m-0 ">
                             <i class="bi bi-arrow-right"></i></a>
                     </div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -334,6 +349,7 @@
     <section>
         <div class="footer_wrapper">
             <div class="container">
+                <section class="wow fadeInLeft">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <img src="images/footer-logo.png">
@@ -382,14 +398,17 @@
                     </div>
 
                 </div>
+                </section>
             </div>
         </div>
         <div class="footer_bg  d-flex  md-block">
             <div class="container">
+                <section class="wow fadeInUp" >
                 <div class="footer_box">
                     <h3>© 2023 expoint. All rights reserved.</h3>
                     <h3>Privacy Policy | Terms & Conditions</h3>
                 </div>
+                </section>
             </div>
         </div>
         </div>
@@ -399,9 +418,22 @@
 
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/bootstrap.bundle.min.js "></script>
     <script src="js/owl.carousel.min.js"></script>
 
+
+    <script>
+        wow = new WOW(
+            {
+                boxClass: 'wow',      // default
+                animateClass: 'animated', // default
+                offset: 0,          // default
+                mobile: true,       // default
+                live: true        // default
+            }
+        )
+        wow.init();</script>
 
 </body>
 
